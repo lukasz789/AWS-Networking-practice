@@ -133,7 +133,7 @@ Run the following command from your local machine. The connection passes through
     "ec2-user@<private_instance_ip>"
 ```
 
-To verify outbound connectivity through the NAT Gateway, run this command on the private instance:
+Try updating the OS packages to verify outbound connectivity through the NAT Gateway
 
 ```bash
   sudo dnf upgrade
