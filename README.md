@@ -152,4 +152,3 @@ Try updating the OS packages to verify outbound connectivity through the NAT Gat
 - Replace the bastion host and SSH keys with AWS Systems Manager Session Manager
 - Improve readme to cover Windows machines as well
 - Restrict SSH access so that the public EC2 instance is not reachable from the entire internet
-- Use Terraform modules
